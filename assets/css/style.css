@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 80px;
+    background-color: burlywood;
+}
+
+.container {
+    background-color: #fff;
+    width: 1024px;
+    padding: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+}
+
+.container h1 {
+    font-family: "Shippori Mincho B1", serif;
+    font-weight: 800;
+    font-style: normal;
+    margin: 20px auto;
+}
+
+.container img {
+    display: block;
+    border-radius: 30px;
+    width: 1024px;
+}
+
+
+
+.container #recipe p {
+    font-family: "Inter", sans-serif;
+    margin-bottom: 30px;
+}
+
+.container .prep {
+    background-color: rgba(255, 192, 203, 0.37);
+    border-radius: 30px;
+    padding: 30px 40px;
+    line-height: 2em;
+}
+
+.container #recipe h2 {
+    font-family: "Inter", sans-serif;
+    color: rgb(77, 13, 34);
+}
+
+.container .prep ul {
+    padding-left: 25px;
+}
+
+.container .prep ul li {
+    padding-left: 20px;
+    font-family: "Inter", sans-serif;
+}
+
+.container .prep span {
+    font-weight: bold;
+}
+
+#ingredients {
+    margin: 30px auto;
+}
+
+#ingredients h2 {
+    padding-bottom: 20px;
+    font-family: "Shippori Mincho B1", serif;
+    color: rgb(105, 11, 11);
+}
+
+#ingredients ul {
+    padding-left: 20px;
+    
+    font-family: "Inter", sans-serif;
+}
+
+#ingredients li {
+    line-height: 2em;
+    padding-left: 20px;
+}
+
+hr {
+    border: 1px solid;
+    color: rgba(145, 140, 140, 0.637);
+}
+
+#instructions {
+    margin-top: 30px;
+}
+
+#instructions h2 {
+    padding-bottom: 20px;
+    font-family: "Shippori Mincho B1", serif;
+    color: rgb(105, 11, 11);
+}
+
+#instructions ol {
+    padding-left: 20px;
+    line-height: 2em;
+    font-weight: bold;
+    color: rgb(105, 11, 11);
+    font-family: "Inter", sans-serif;
+}
+
+#instructions ol span {
+    color: #252525;
+}
+
+#instructions ol li p {
+    display: inline;
+    font-weight: normal;
+    color: #252525;
+}
+
+#nutrients {
+    margin-top: 30px;
+}
+
+#nutrients h2 {
+    padding-bottom: 10px;
+    font-family: "Shippori Mincho B1", serif;
+    color: rgb(105, 11, 11);
+}
+
+#nutrients p {
+    padding: 20px 0;
+    font-family: "Inter", sans-serif;
+}
+
+#nutrients table{
+  border-collapse: collapse;
+  width: 100%; 
+}
+
+#nutrients table tr{
+    font-family: "Inter", sans-serif;
+    border-spacing: 100px;
+    text-align:center;
+}
+
+#nutrients table tr td{
+  text-align: left; 
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 8px;
+}
+
+.attribution {
+    margin-top: 50px;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+}
+
+.attribution img {
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
